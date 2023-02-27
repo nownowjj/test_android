@@ -1,19 +1,12 @@
 package com.example.test_application;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
-import android.util.Log;
-import android.webkit.DownloadListener;
 import android.webkit.WebChromeClient;
-import android.webkit.WebResourceRequest;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.LinearLayout;
 import android.widget.Toast;
 
-import java.net.URL;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -45,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         webView.getSettings().setDomStorageEnabled(true);  // 로컬 스토리지 (localStorage) 사용여부
 
-
+        // where?
         //웹페이지 호출
 //        webView.loadUrl("http://www.naver.com");
         webView.loadUrl("http://192.168.10.215:3000");
