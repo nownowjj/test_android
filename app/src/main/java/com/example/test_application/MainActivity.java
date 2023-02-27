@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         webView.getSettings().setDomStorageEnabled(true);  // 로컬 스토리지 (localStorage) 사용여부
 
-        // where? dd
+        // where? dd d
         //웹페이지 호출
 //        webView.loadUrl("http://www.naver.com");
         webView.loadUrl("http://192.168.10.215:3000");
